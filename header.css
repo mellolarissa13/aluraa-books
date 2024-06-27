@@ -6,3 +6,43 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.lista-menu {
+    display: none;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+  }
+  
+  
+  .lista-menu {
+      display: none;
+      position: absolute;
+  }
+
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+}
+/* código omitido */
+
+.lista-menu_titulo, 
+.lista-menu_item {
+    color:var(--laranja);
+    padding: 1em,
+    background-color: var(--branco);
+
+}
+
