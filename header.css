@@ -8,7 +8,7 @@
 }
 
 .lista-menu {
-    display: none;
+    display: none;l
 }
 
 .container__botao:checked ~ .lista-menu {
